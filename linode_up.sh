@@ -10,6 +10,8 @@
 `./configure;make;make test`
 `make install`
 `ruby -v`
-`cd ..`
+`cd ext/zlib;ruby extconf.rb`
+`make;make install`
+`cd ~/fonts`
 `wget http://production.cf.rubygems.org/rubygems/rubygems-1.4.1.tgz;tar -zxvf rubygems-1.4.1.tgz;cd rubygems-1.4.1`
 `ruby setup.rb`
