@@ -21,6 +21,7 @@ read
 exec './configure --with-openssl-dir=/usr/lib'
 exec 'make'
 exec 'make test'
+exec 'make check'
 echo "Instalando ..."
 read
 exec 'make install'
